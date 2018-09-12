@@ -11,7 +11,17 @@
     
  */
 
-
+$data;
+ if(isset(SESSION[saleFilter])
+ {
+  $data = SESSION[saleFilter];
+ }
+ else
+ {
+  sql areas where sale_rent == sale
+  $data=result_set;
+ }
+    
  $data = array(
     array('Name'=>'parvez', 'Empid'=>11, 'Salary'=>101),
     array('Name'=>'alam', 'Empid'=>1, 'Salary'=>102),
